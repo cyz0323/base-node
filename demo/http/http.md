@@ -1,5 +1,5 @@
 # http协议
->是浏览器和web服务器之间的通信协议 ~~描述~~
+>是浏览器和web服务器之间的通信协议
 ### 通用头信息
 >#####&nbsp;&nbsp;**Request URL** 请求的URL，表示要想服务器获取那些内容  
 >#####&nbsp;&nbsp;**Request Method** 请求的方法 ***get***获取得到 ***post*** 传递给别人  
