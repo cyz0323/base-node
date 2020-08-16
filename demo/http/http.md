@@ -18,3 +18,19 @@
 | Location | 要跳转的地址，结合状态码使用 |
 ### http模块
 > 用于创建web服务器
+```
+//引入http模块
+const app = http.createServer();
+//设置端口8080
+app.listen(8080);
+//web服务器接收事件请求
+app.on('request', (req, res) => {
+    //req 请求的对象
+    req.url //请求的URL
+    req.method //请求的方法
+    //res 响应的对象
+    res.wirteHead(状态码, 头信息)  //设置响应的状态码和头信息，头信息可以为空
+    res.wirte() //设置响应的内容，显示到网页中的内容
+    res.end()   //结束并发宋响应
+})
+```
